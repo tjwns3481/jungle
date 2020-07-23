@@ -1,0 +1,13 @@
+body{
+    background-color: cadetblue;
+}
+h1{
+    /* border: 3px solid black; */
+    background-image: url("../img/logo_white.svg");
+    background-repeat: no-repeat;
+    font-size: 0px;
+    width: 117px;
+    height: 44.988px;
+    /* color: #aaaaaa;
+    color: rgba(0, 0, 0, 0); */
+}

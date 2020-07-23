@@ -1,0 +1,23 @@
+h1{
+    background-image: url("../boostcamp/img/logo_white.svg");
+    background-repeat: no-repeat;
+    font-size: 0px;
+    padding: 30px;
+}
+html{
+    background-color: gray;
+}
+
+li{
+    display: inline-block;
+    text-align: center;
+    margin: 0 30px;
+    color: #eeeeee;
+}
+h2{
+    color: white;
+}
+
+address{
+    color: white;
+}
