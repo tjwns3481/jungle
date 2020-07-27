@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>float2</title>
+    <style>
+        /* 초기화 코드 */
+        body, h1, h2, h3, h4, h5, h6, ul, ol, dl, li, p{
+            margin: 0px;
+        }
+        header{
+            border: 2px solid red;
+        }
+        section {
+            border: 2px solid pink;
+            height: 900px;
+            padding: 30px;
+            background-color: thistle;
+        }
+        footer {
+            background-color: black;
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+        nav {
+            border: 3px solid green;
+        }
+        h1 {
+            border: 1px solid black;
+           background-color: yellow;
+           float: left;
+           width: 200px;
+        }
+        header nav ul {
+            border: 2px solid blue;
+            background-color: powderblue;
+            text-align: center;
+            float: left;
+            width: 700px;
+            padding: 0px;
+        }
+        header nav ul li{
+            border: 3px solid black;
+            display: inline-block;
+        }
+        #topMenu {
+            /* float: right; */
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            cursor: pointer;
+            width: 150px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Logo</h1>
+            <!-- <button id="topMenu">&equiv;</button> -->
+            <ul>
+                <li><a href="#">menu1</a></li>
+                <li><a href="#">menu2</a></li>
+                <li><a href="#">menu3</a></li>
+            </ul>
+            <button id="topMenu">&equiv;</button>
+        </nav>
+    </header>
+    <section>section1</section>
+    <footer>copyright</footer>
+</body>
+</html>

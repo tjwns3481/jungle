@@ -1,5 +1,8 @@
 body{
-    background-color: cadetblue;
+    background-image: url("/jungle/boostcamp/img/jack-cohen-7m-Dt6NwCnI-unsplash.jpg");
+    background-size: cover;
+    width: 1280px;
+    margin: 0 auto;
 }
 h1{
     /* border: 3px solid black; */
@@ -8,6 +11,47 @@ h1{
     font-size: 0px;
     width: 117px;
     height: 44.988px;
+    float: left;
+
     /* color: #aaaaaa;
     color: rgba(0, 0, 0, 0); */
+}
+h4 {
+    color: white;
+}
+ul {
+    text-align: right;
+}
+li {
+    display: inline-block;
+    padding: 30px;
+}
+#bor{
+    border: 1px solid white;
+    border-radius: 40px;
+    padding: 10px;
+    background-color: white;
+}
+#navi {
+    margin-top: 50px;
+}
+
+#section1 {
+    background-size: cover;
+    margin: 150px auto;
+    text-align: center;
+}
+#period {
+    display: block;
+    position: absolute;
+    top: 18%;
+    margin-left: 130px;
+}
+#online {
+    text-align: right;
+    margin-right: 130px;
+}
+#first {
+    color: white;
+    font-size: 50px;
 }

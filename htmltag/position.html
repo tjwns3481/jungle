@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position</title>
+    <style>
+        body {
+            margin: 0px;
+            height: 1500px;
+        }
+        div {
+            border: 3px solid black;
+            padding: 30px;
+            font-size: 30px;
+            text-align: center;
+        }
+
+        #box1 {
+            background-color: cornflowerblue;
+            height: 150px;
+            position: absolute;
+            top: 0px;
+            left: 0;
+            z-index: 1;
+        }
+
+        #box2 {
+            background-color: palegoldenrod;
+            height: 200px;
+            position: relative;
+        }
+        #child {
+            background-color: palevioletred ;
+            position: absolute;
+            top: 0px;
+            left: 200px;
+            z-index: 2;
+        }
+
+        #box3 {
+            background-color: palegreen;
+            height: 300px;
+            position: fixed;
+            top: 0px;
+            left: 0px;
+            z-index: 3;
+            opacity: 50%;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>position -절대적 위치, 상대적 위치, 고정</h1>
+
+    <div id="box1">box1 - 절대적 위치</div>
+    <div id="box2">
+        box2 - 상대적 위치
+        <div id="child">자식박스</div>
+    </div>
+    <div id="box3">box3 - 고정위치</div>
+</body>
+
+</html>
