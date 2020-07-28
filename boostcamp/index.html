@@ -1,22 +1,36 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="머치모어" />
+    <meta property="og:url" content="http://muchmore.dothome.co.kr/" />
+    <meta property="og:image" content="img/meta_logo.png" />
+    <meta property="og:description" content="웹퍼블리셔의 성장을 추구하는 머치모어 캠퍼스입니다." />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="머치모어" />
+    <meta name="twitter:url" content="http://muchmore.dothome.co.kr/" />
+    <meta name="twitter:image" content="img/meta_logo.png" />
+    <meta name="twitter:description" content="웹퍼블리셔의 성장을 추구하는 머치모어 캠퍼스입니다." />
     <title>Document</title>
+    <link href="css/main.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
     <header>
-        <ul>
+        <ul id="skipNav">
             <li><a href="#">본문 바로가기</a></li>
             <li><a href="#">주메뉴 바로가기</a></li>
         </ul>
 
-        <p>
-            부스트캠프 2020 지원 기간 <strong>2020.06.01. ~ 06.30</strong> 
-            <button>오늘 하루 보지 않기</button> <button>닫기</button>
+        <p id="topBanner">
+            부스트캠프 2020 지원 기간 <br class="mobile">
+            <strong>2020.06.01. ~ 06.30</strong> 
+            <button id="tb_close">
+                <span class="desktop">오늘 하루 보지 않기</span> 
+                <span class="blind">닫기</span>
+            </button>
         </p>
 
         <nav>
@@ -34,8 +48,7 @@
         </nav>
         <button>레이어 닫기</button>
     </header>
-
-    <section>
+    <section id="section1">
         <h2>개발자의<br> 지속 가능한 성장을 <br>추구하는 학습 커뮤니티 <br>부스트캠프</h2>
         <p><b>분야</b> 웹 풀스택, 모바일 iOS<br>
             <b>기간</b>2020.07 - 2020.12</p>
