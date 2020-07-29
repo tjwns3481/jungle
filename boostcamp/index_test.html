@@ -1,61 +1,113 @@
 <!DOCTYPE html>
 <html lang="ko">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
-    <link rel="icon" href="img/favicon.ico" type="image/x-icon" />
-    <link href="css/main.css" rel="stylesheet" type="text/css">
-    <title>Boostcamp</title>
-    
+    <meta property="og:title" content="머치모어" />
+    <meta property="og:url" content="http://muchmore.dothome.co.kr/" />
+    <meta property="og:image" content="img/meta_logo.png" />
+    <meta property="og:description" content="웹퍼블리셔의 성장을 추구하는 머치모어 캠퍼스입니다." />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="머치모어" />
+    <meta name="twitter:url" content="http://muchmore.dothome.co.kr/" />
+    <meta name="twitter:image" content="img/meta_logo.png" />
+    <meta name="twitter:description" content="웹퍼블리셔의 성장을 추구하는 머치모어 캠퍼스입니다." />
+    <title>Document</title>
+    <link href="css/main_test.css" rel="stylesheet" type="text/css">
 </head>
+
 <body>
     <header>
-        <nav id="navi">
-            <h1><a href="#">boostcamp</a></h1>
-            <ul>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Program</a></li>
-                <li><a href="#">모집 안내</a></li>
-                <li><a href="#">FAQ</a></li>
-                <li id="bor"><a href="#">지원하기</a></li>
+        <ul id="skipNav">
+            <li><a href="#">본문 바로가기</a></li>
+            <li><a href="#">주메뉴 바로가기</a></li>
+        </ul>
+
+        <div id="topBanner">
+            <p class="wrap">
+                부스트캠프 2020 지원 기간 <br class="mobile"><strong>2020.06.01. ~ 06.30</strong> 
+                <button id="tb_close">
+                    <span class="desktop">오늘 하루 보지 않기</span>
+                    <span class="blind">닫기</span>
+                </button>
+            </p>
+        </div>
+
+        <nav>
+            <h1>
+                <a href="#"><span class="blind">boostcamp</span></a>
+            </h1>
+            <button id="menuView"><span class="blind">메뉴 펼치기</span></button>
+            <ul id="mainNav">
+                <li href="#">About</li>
+                <li href="#">Program</li>
+                <li href="#">모집 안내</li>
+                <li href="#">FAQ</li>
+                <li href="#">지원하기</li>
             </ul>
         </nav>
+        <!-- <button>레이어 닫기</button> -->
     </header>
-
     <section id="section1">
-        <article>
-            <h4 id="period">
-                <B>분야</B> 웹 풀스택, 모바일iOS<br>
-                <B>기간</B> 2020.07 - 2020.12
-            </h4>
-        <h2 id="first"><b>개발자</b>의 <br><b>지속 가능한 성장</b>을<br> <b>추구</b>하는 <b>학습 커뮤니티</b> <br>부스트캠프</h2>
-            <span><a href="#">&rarr;지원하기</a></span>
-            <h4 id="online">
-                부스트캠프 2020은<br>
-                온라인으로 함께합니다.
-            </h4>
-
-        </article>
+        <div id="wrap1">
+            <h2>개발자의<br> 지속 가능한 성장을 <br>추구하는 학습 커뮤니티 <br>부스트캠프</h2>
+            <p id="p1"><b>분야</b> 웹 풀스택, 모바일 iOS<br>
+                <b>기간</b>2020.07 - 2020.12</p>
+            <p id="p2"> 부스트캠프 2020은<br>
+                온라인으로 함께합니다</p>
+            <div id="button1"><a href="#">지원하기</a></div>
+        </div>
     </section>
+
     <section>
         <h2>성장을 향한 여정의 시작</h2>
+        <article>
+            <h3>우리는 질문합니다.</h3>
+            <p>“지속 가능한” 개발자란 무엇일까?</p>
+        </article>
+        <article>
+            <h3>우리는 답합니다.</h3>
+            <p>문제는 늘 바뀌지만,<br>
+                그 문제를 해결할 수 있는 방법을 아는 사람이라고</p>
+        </article>
+        <article>
+            <h3>CONNECT POSSIBILITY</h3>
+            <p>5년, 10년 뒤에도 지금 보다 더 성장할 수 있는 가능성으로<br>
+                여러분을 연결하고자 합니다.</p>
+        </article>
     </section>
+
     <section>
-        <h2>그 시작은 바로, 부스트캠프입니다.</h2>
+        <h2>그 시작은 바로,<br>부스트캠프입니다.</h2>
+        <a href="#">부스트캠프 더 알아보기</a>
     </section>
+
     <section>
-        <h2>웹&모바일 온라인 학습</h2>
+        <h2>웹 & 모바일 온라인 학습</h2>
+        <article>
+            <strong>우리의 도전은 현재 진행형입니다.</strong> 
+            <p>
+                웹 풀스택을 넘어 새로운 분야로 나아갑니다.<br>
+                더 많은 개발자의 학습과 성장을 위한 온라인 교육 환경을 만듭니다.
+            </p>
+        </article>
     </section>
+
     <section>
-        <h2>그 도전을 함께할 지속 가능한 개발자를 </h2>
+        <h2>그 도전을 함께할<br>
+            지속 가능한<br>
+            개발자를 찾습니다.
+        </h2>
+        <a href="#">부스트캠프 2020 모집 안내</a>
     </section>
-   
+
     <footer>
-        <address>
-            Contact boostcamp@connect.or.kr
-            서울시 강남구 신사동...
-        </address>
+        © CONNECT
+        Contact <a href="mailto:boostcamp@connect.or.kr">boostcamp@connect.or.kr</a> 페이스북 인스타그램 네이버 블로그 Git
     </footer>
+
+
 </body>
+
 </html>
