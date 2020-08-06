@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ko">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Active Slide - fullPage.js</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="머치모어" />
+    <meta property="og:url" content="http://muchmore.dothome.co.kr/" />
+    <meta property="og:image" content="img/meta_logo.png" />
+    <meta property="og:description" content="웹퍼블리셔의 성장을 추구하는 머치모어 입니다." />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="머치모어" />
+    <meta name="twitter:url" content="http://muchmore.dothome.co.kr/" />
+    <meta name="twitter:image" content="img/meta_logo.png" />
+    <meta name="twitter:description" content="웹퍼블리셔의 성장을 추구하는 머치모어 입니다." />
+    <meta name="author" content="KimSeoJun" />
+    <meta name="description" content="김서준 입니다." />
+    <meta name="keywords" content="publisher,jquery" />
+    <meta name="Resource-type" content="Document" />
+    <link rel="stylesheet" type="text/css" href="../fullpage/css/fullpage.css" />
+    <link rel="stylesheet" type="text/css" href="../fullpage/css/examples.css" />
+    <link rel="stylesheet" type="text/css" href="../fullpage/css/main.css" />
+
+    <!--[if IE]>
+        <script type="text/javascript">
+             var console = { log: function() {} };
+        </script>
+    <![endif]-->
+</head>
+
+<body>
+
+    <ul id="menu">
+        <li data-menuanchor="firstPage" class="active"><a href="#firstPage">First slide</a></li>
+        <li data-menuanchor="secondPage"><a href="#secondPage">Second slide</a></li>
+        <li data-menuanchor="3rdPage"><a href="#3rdPage">Third slide</a></li>
+        <li data-menuanchor="4thPage"><a href="#4thPage">fourth slide</a></li>
+        <li data-menuanchor="5thPage"><a href="#5thPage">fifth slide</a></li>
+        <li data-menuanchor="lastPage"><a href="#lastPage">last slide</a></li>
+    </ul>
+
+
+    <div id="fullpage">
+        <div class="section" id="section0">
+            <h1>Section 1</h1>
+        </div>
+        <div class="section" id="section1">
+            <h1>Section 2</h1>
+        </div>
+        <div class="section active" id="section2">
+            <h1>Section 3</h1>
+        </div>
+        <div class="section" id="section3">
+            <h1>Section 4</h1>
+        </div>
+        <div class="section " id="section4">
+            <h1>Section 5</h1>
+        </div>
+        <div class="section " id="section5">
+            <h1>Section 6</h1>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="../fullpage/js/fullpage.js"></script>
+    <script type="text/javascript">
+        var myFullpage = new fullpage('#fullpage', {
+            sectionsColor: ['yellow', 'green', 'pink', 'whitesmoke', '#ccddff', 'thistle'],
+            anchors: ['firstPage', 'secondPage', '3rdPage', '4thPage', '5thPage', 'lastPage'],
+            menu: '#menu',
+            lazyLoad: true
+        });
+    </script>
+
+</body>
+
+</html>

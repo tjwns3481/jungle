@@ -1,0 +1,27 @@
+#section0 {
+    background-image: url("../img/isaac-smith-6EnTPvPPL6I-unsplash.jpg");
+    background-size: cover;
+}
+#section1 {
+    height: 100%;
+    width: 100%;
+    background-image: url("../img/isaac-smith-6EnTPvPPL6I-unsplash.jpg");
+    background-size: cover;
+    transform: rotate(180deg);
+    transform: scaleY(-1);
+    filter: grayscale(50%);
+}
+/* #section1::before {
+    content: "";
+    background-image: url("../img/isaac-smith-6EnTPvPPL6I-unsplash.jpg");
+    background-size: cover;
+    width: 100vw;
+    height: 100%;
+    display: block;
+} */
+#section1 h1 {
+    position: absolute;
+    transform: rotate(180deg);
+    transform: scaleY(-1);
+    width: 100%;
+}

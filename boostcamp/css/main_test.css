@@ -87,17 +87,18 @@ table {
     height: 18px;
     top: 39%;
     right: 25px;
-    background-image: url("/jungle/boostcamp/img/close.png");
+    background-image: url("../img/close.png");
     background-size: contain;
     background-repeat: no-repeat;
 }
 .menuBar {
     padding: 20px;
     background-color: transparent;
-    position: absolute;
+    position: fixed;
     width: 100%;
     height: 50px;
     box-sizing: border-box;
+    z-index: 6;
 }
 
 .menuLogo a{
@@ -498,7 +499,7 @@ footer ul li {
         padding: 25px 25px;
     }
     .menuBar {
-        position: absolute;
+        position: fixed;
     }
     .menuList {
         background-color: transparent;
@@ -506,7 +507,7 @@ footer ul li {
         display: inline-block;
         width: 700px;
         right: 50px;
-        top: 25px;
+        top: -20px;
     }
     .menuList div{
         display: none;
@@ -578,6 +579,3 @@ footer ul li {
 }
 
 /* -------------------------------------------finished css code for desktop------------------------------------------- */
-@media screen and (min-width : 1440px) {
-    
-}
